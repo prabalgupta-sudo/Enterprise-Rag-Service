@@ -1,0 +1,76 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# Docker
+# ======================
+*.tar
+docker-compose.override.yml
+
+# ======================
+# Kubernetes
+# ======================
+*.kubeconfig
+
+# ======================
+# Secrets
+# ======================
+*.key
+*.pem
+*.crt
+
+# ======================
+# Model Caches
+# ======================
+.cache/
+huggingface/
+torch_extensions/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Temporary Files
+# ======================
+tmp/
+temp/
+.tmp-*.tar*
